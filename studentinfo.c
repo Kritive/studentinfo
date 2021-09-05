@@ -39,7 +39,7 @@ informationpanel:
         Sleep(5);
       }
       
-      printf("\n\n\t\t\t\t\t\t\tPlease enter your choise:");
+      printf("\n\n\t\t\t\t\t\t\tPlease enter your choice:");
       scanf("%d",&num);
       switch (num)
       {
