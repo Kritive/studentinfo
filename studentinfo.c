@@ -8,6 +8,8 @@
 int login();
 int addinfo();
 int viewinfo();
+int editinfo();
+int deleteinfo();
 
 int main()
 {
@@ -141,7 +143,6 @@ int login()
       password[i]=code;
       code='*';
       printf("%c",code);
-        
     }
     getch();
     system("cls");
@@ -223,7 +224,7 @@ int addinfo()
     
     struct studentinfo student;
     FILE *fp1;
-    fp1=fopen("info.txt","ab");
+    fp1=fopen("info.dat","ab");
     system("cls");
 
     if (fp1==NULL){
